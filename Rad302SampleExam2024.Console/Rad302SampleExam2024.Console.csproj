@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tracker" Version="1.0.7-beta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rad302GenericDataService\Rad302GenericDataService.csproj" />
+    <ProjectReference Include="..\Rad302SampleExam2024.DataModel\Rad302SampleExam2024.DataModel.csproj" />
+  </ItemGroup>
+
+</Project>

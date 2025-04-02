@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.13" />
+	  <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.13" PrivateAssets="all" />
+	  <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
+	  <PackageReference Include="System.Net.Http.Json" Version="7.0.0" />
+	  <PackageReference Include="Blazored.Toast" Version="4.2.1" />
+	   <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />	  
+	  <PackageReference Include="Tracker" Version="1.0.7-beta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorDataServices\BlazorDataServices.csproj" />
+    <ProjectReference Include="..\Rad302GenericDataService\Rad302GenericDataService.csproj" />
+    <ProjectReference Include="..\Rad302SampleExam2024.DataModel\Rad302SampleExam2024.DataModel.csproj" />
+  </ItemGroup>
+
+</Project>
